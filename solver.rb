@@ -9,4 +9,9 @@ class Solver
   def reverse(string)
     string.reverse
   end
+
+  def fizzbuzz(number)
+    return 'fizz' if (number % 3).zero?
+    return 'buzz' if (number % 5).zero?
+  end
 end

@@ -32,4 +32,30 @@ describe Solver do
       expect(@solver.reverse(string)).to eql(string)
     end
   end
+
+  context 'Given a number is divisible by 3, the fizzbuzz method' do
+    it 'should return the string "fizz"' do
+      number1 = 3
+      number2 = 150
+
+      result1 = @solver.fizzbuzz(number1)
+      result2 = @solver.fizzbuzz(number2)
+
+      expect(result1).to eql('fizz')
+      expect(result2).to eql('fizz')
+    end
+  end
+
+  context 'Given a number is divisible by 5, the fizzbuzz method' do
+    it 'should return the string "buzz"' do
+      number1 = 5
+      number2 = 25
+
+      result1 = @solver.fizzbuzz(number1)
+      result2 = @solver.fizzbuzz(number2)
+
+      expect(result1).to eql('buzz')
+      expect(result2).to eql('buzz')
+    end
+  end
 end
