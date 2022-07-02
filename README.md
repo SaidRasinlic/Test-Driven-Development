@@ -26,9 +26,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Clone GitHub repository `gh repo clone SaidRasinlic/Test-Driven-Development`
-- Open terminal and run "*_cd your_project_path/Test-Driven-Development_*" command
-- Run test cases by writing "*_rspec spec_*" command 
+- Clone GitHub repository `*_gh repo clone SaidRasinlic/Test-Driven-Development_*`
+- Open terminal and run `*_cd your_project_path/Test-Driven-Development_*` command
+- Run test cases by writing `*_rspec spec_*` command 
 - Congratulations, you are ready to go!
 
 
