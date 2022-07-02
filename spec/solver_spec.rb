@@ -49,7 +49,7 @@ describe Solver do
   context 'Given a number is divisible by 5, the fizzbuzz method' do
     it 'should return the string "buzz"' do
       number1 = 5
-      number2 = 155
+      number2 = 25
 
       result1 = @solver.fizzbuzz(number1)
       result2 = @solver.fizzbuzz(number2)
